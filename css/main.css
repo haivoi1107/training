@@ -3,10 +3,7 @@
     background-color: black;
     display: flex;
 }
-.grid {
-    width: 1200px;
-    margin: auto;
-}
+
 .header__navbar-list {
     list-style: none;
 }
@@ -43,6 +40,12 @@
     font-size: 2rem;
     line-height: 2.5rem;
 }
+
+.content{
+    width: 1200px;
+    margin: auto;
+}
+
 .banner__button {
     padding: 0.4rem 2rem;
     border: 2px solid white;
@@ -88,5 +91,13 @@
     transition: 0.1s;
     background-color: black;
 }
-
-
+.pic01 {
+    height: 80px;
+    width: 50%;
+    background-color: black;
+}
+.pic02 {
+    height: 80px;
+    width: -50%;
+    background-color: #red;
+}
